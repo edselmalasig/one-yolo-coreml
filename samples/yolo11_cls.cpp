@@ -20,7 +20,7 @@ int main() {
     model.info();
 
     /* 3. collect test images */
-    auto image0 = cv::imread("./vp_data/test_images/vehicle_cls/3.jpg");
+    auto image0 = cv::imread("./vp_data/test_images/vehicle_cls/40.jpg");
     auto image1 = cv::imread("./vp_data/test_images/vehicle_cls/40.jpg");
 
     /* 

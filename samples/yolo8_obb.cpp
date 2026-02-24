@@ -20,7 +20,7 @@ int main() {
     model.info();
 
     /* 3. collect test image */
-    auto image1 = cv::imread("./vp_data/test_images/obb/3.png");
+    auto image1 = cv::imread("./vp_data/test_images/obb/2.png");
 
     // 4. run predict
     auto result = model(image1);

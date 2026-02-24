@@ -22,7 +22,7 @@ int main() {
     model.info();
 
     /* 3. open video and predict frames in a loop */
-    cv::VideoCapture cap("./vp_data/test_video/fire3.mp4");
+    cv::VideoCapture cap("./vp_data/test_video/fire4.mp4");
     while (cap.isOpened()) {
         // collect frame
         cv::Mat frame;

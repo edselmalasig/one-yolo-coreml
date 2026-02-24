@@ -7,7 +7,7 @@ int main() {
     cfg.desc        = "lane segmentation task using yolov26s(custom model)";
     cfg.version     = YoloVersion::YOLO26;
     cfg.task        = YoloTaskType::SEG;
-    cfg.target_rt   = YoloTargetRT::ORT_CPU;
+    cfg.target_rt   = YoloTargetRT::OVN_CPU;
     cfg.model_path  = "./vp_data/models/lane/das-yolo26s-c2-20260130.onnx";
     cfg.input_w     = 640;
     cfg.input_h     = 384;
@@ -20,7 +20,7 @@ int main() {
     model.info();
 
     /* 3. open video and predict frames in a loop */
-    cv::VideoCapture cap("./vp_data/test_video/das2.mp4");
+    cv::VideoCapture cap("./vp_data/test_video/view_change.mp4");
     while (cap.isOpened()) {
         // collect frame
         cv::Mat frame;

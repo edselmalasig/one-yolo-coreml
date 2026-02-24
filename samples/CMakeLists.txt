@@ -62,6 +62,9 @@ target_link_libraries(yolo11_cls2 ${PROJECT_NAME})
 add_executable(yolo11_det "yolo11_det.cpp")
 target_link_libraries(yolo11_det ${PROJECT_NAME})
 
+add_executable(yolo11_det2 "yolo11_det2.cpp")
+target_link_libraries(yolo11_det2 ${PROJECT_NAME})
+
 add_executable(yolo11_obb "yolo11_obb.cpp")
 target_link_libraries(yolo11_obb ${PROJECT_NAME})
 

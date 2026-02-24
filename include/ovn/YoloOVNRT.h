@@ -1,6 +1,6 @@
+#pragma once
 #include <openvino/openvino.hpp>
 #include "YoloRuntime.h"
-
 
 namespace yolo {
     /**

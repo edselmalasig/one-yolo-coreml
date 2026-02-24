@@ -5,10 +5,13 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -fPIC -w -fdiagnostics-color=always -pthread")
 
-option(BUILD_WITH_ORT "enable onnxruntime?" OFF)
-option(BUILD_WITH_OVN "enable openvino?" OFF)
-option(BUILD_WITH_TRT "enable tensorrt?" OFF)
-option(BUILD_WITH_RKN "enable rknn?" OFF)
+option(BUILD_WITH_ORT "enable ONNXRuntime?" OFF)
+option(BUILD_WITH_OVN "enable OpenVINO?" OFF)
+option(BUILD_WITH_TRT "enable TensorRT?" OFF)
+option(BUILD_WITH_RKN "enable RKNN?" OFF)
+option(BUILD_WITH_CML "enable CoreML?" OFF)
+option(BUILD_WITH_PDL "enable PaddlePaddle?" OFF)
+option(BUILD_WITH_CAN "enable CANN?" OFF)
 
 # OpenCV required
 find_package(OpenCV REQUIRED)
@@ -26,12 +29,15 @@ file(GLOB BASE_SRCS "src/*.cpp")
 file(GLOB_RECURSE TRACK_SRCS "src/track/*.cpp")
 file(GLOB_RECURSE ORT_SRCS "src/ort/*.cpp")
 file(GLOB_RECURSE OVN_SRCS "src/ovn/*.cpp")
+file(GLOB_RECURSE TRT_SRCS "src/trt/*.cpp")
 list(APPEND ONE_YOLO_DEPEND_SRCS ${BASE_SRCS} ${TRACK_SRCS})
 list(APPEND ONE_YOLO_DEPEND_LIBS ${OpenCV_LIBS})
 
 # enable onnxruntime, 
 # make sure onnxruntime installed and include & libs path could be found by cmake
 if(BUILD_WITH_ORT)
+    #include_directories("include path to onnxruntime")
+    #link_directories("libs path to onnxruntime") 
     add_definitions(-DBUILD_WITH_ORT)
     list(APPEND ONE_YOLO_DEPEND_SRCS ${ORT_SRCS})
     list(APPEND ONE_YOLO_DEPEND_LIBS onnxruntime)
@@ -39,10 +45,21 @@ endif()
 # enable openvino, 
 # make sure openvino installed and include & libs path could be found by cmake
 if(BUILD_WITH_OVN)
+    #include_directories("include path to openvino")
+    #link_directories("libs path to openvino") 
     find_package(OpenVINO REQUIRED)
     add_definitions(-DBUILD_WITH_OVN)
     list(APPEND ONE_YOLO_DEPEND_SRCS ${OVN_SRCS})
     list(APPEND ONE_YOLO_DEPEND_LIBS openvino::runtime)
+endif()
+# enable tensorrt, 
+# make sure tensorrt installed and include & libs path could be found by cmake
+if(BUILD_WITH_TRT)
+    include_directories("/usr/local/tensorRT/include")
+    link_directories("/usr/local/tensorRT/lib")
+    add_definitions(-DBUILD_WITH_TRT)
+    list(APPEND ONE_YOLO_DEPEND_SRCS ${TRT_SRCS})
+    list(APPEND ONE_YOLO_DEPEND_LIBS nvinfer cudart)
 endif()
 
 add_library(${PROJECT_NAME} SHARED ${ONE_YOLO_DEPEND_SRCS})
