@@ -2,34 +2,34 @@
   <img src="./docs/logo.png" alt="Logo" width="85%">
 </p>
 <p style="margin:0px;color:gray" align="center">
-[🚀🚀🚀All Yolo Tasks · All Yolo Versions · All Yolo Runtimes🚀🚀🚀]
+[🚀🚀🚀支持全部 YOLO 任务 · 支持全部 YOLO 版本 · 支持全部 YOLO 推理后端🚀🚀🚀]
 </p>
 <p style="margin:0px" align="center">
-  <a href='./README_CN.md'>中文README</a> | <a href='https://github.com/sherlockchou86/one-yolo/wiki'>Wiki Docs </a>
+  <a href='./README.md'>英文README</a> | <a href='https://github.com/sherlockchou86/one-yolo/wiki'>Wiki 文档 </a>
 </p>
 
 # one-yolo
-A unified C++ toolkit for YOLO `v5/v8/v11/v26/...`, covering `classification/detection/segmentation/pose/obb` tasks with easy python-like APIs from `ultralytics/ultralytics`. Support `All Yolo Tasks, All Yolo Versions, All Yolo Runtimes`, it's time to make all in one.
+一个统一的 C++ YOLO 工具箱，支持 `v5 / v8 / v11 / v26 / ...`，覆盖 `分类 / 检测 / 分割 / 姿态 / OBB（旋转框）` 等任务，提供类似 ultralytics/ultralytics 的 Python 风格易用 API。支持 全部 YOLO 任务、全部 YOLO 版本、全部 YOLO 推理后端 —— 是时候真正做到 All-in-One。
 <p style="" align="center">
   <img src="./docs/showcase.gif" alt="Logo" width="85%">
 </p>
 
-## highlight
-1. support all `Yolo` tasks including `classification`/`detection`/`segmentation`/`pose`/`obb`.
-2. support all `Yolo` versions including `yolov5(anchor-based)`/`yolov5u(anchor-free)`/`yolov8`/`yolov11`/`yolov26(nms-free)`/`more in the future`, sub versions like `n/s/m/l/x` are also supported.
-3. support all `Yolo` inference backends(runtime) such as `OpenCV::DNN`/`ONNXRuntime`/`TensorRT`/`OpenVINO`/`RKNN`/`CoreML`/`CANN`/`PaddlePaddle`...
-4. easy APIs to use and integrate, as simple as python APIs from `ultralytics/ultralytics` library.
-5. toolkit works out of box, provide the model and set up the config parameters, go predict!
+## ✨ 亮点
+1. 支持全部 YOLO 任务：`classification（分类）` / `detection（检测）` / `segmentation（分割）` / `pose（姿态）` / `obb（旋转框）`
+2. 支持全部 YOLO 版本：`yolov5（anchor-based）` / `yolov5u（anchor-free）` / `yolov8` / `yolov11` / `yolov26（nms-free）` / `以及未来版本`。同时支持 `n / s / m / l / x` 等子版本
+3. 支持全部 YOLO 推理后端（runtime）：`OpenCV::DNN` / `ONNXRuntime` / `TensorRT` / `OpenVINO` / `RKNN` / `CoreML` / `CANN` / `PaddlePaddle` ...
+4. API 简洁易用，调用方式类似 `ultralytics/ultralytics` python库
+5. 开箱即用：提供模型，设置配置参数，即可开始预测
 
-## quick start
+## 🚀 快速开始
 
-### basics
+### 基础依赖
 1. C++ >= 17
 2. GCC >= 7.5
 3. OpenCV == 4.13
 4. CUDA/ONNXRuntime/TensorRT/OpenVINO/RKNN/... are optional
 
-### build
+### 编译源码
 1. run `git clone https://github.com/sherlockchou86/one-yolo.git`
 2. run `cd one-yolo && mkdir build && cd build`
 3. run `cmake .. && make -j8` or click `debug` button to run samples directly if you have opened the project using VS Code
@@ -37,35 +37,35 @@ A unified C++ toolkit for YOLO `v5/v8/v11/v26/...`, covering `classification/det
 > you must put test data(models&video&images) at the same directory as one-yolo first before runing the samples.
 
 ```
-build options when run cmake command:
--DBUILD_WITH_ORT=ON   # enable ONNXRuntime as inference backend
--DBUILD_WITH_OVN=ON   # enable OpenVINO(Intel Platform) as inference backend
--DBUILD_WITH_TRT=ON   # enable TensorRT(Nvidia/CUDA Platform) as inference backend
--DBUILD_WITH_RKN=ON   # enable RKNN(RockChip Platform) as inference backend
--DBUILD_WITH_CML=ON   # enable CoreML(Apple Platform) as inference backend
--DBUILD_WITH_PDL=ON   # enable PaddlePaddle as inference backend
--DBUILD_WITH_CAN=ON   # enable CANN(HuaWei Platform) as inference backend
--DBUILD_WITH_DEL=ON   # enable Denglin's SDK(Denglin/登临 Platform) as inference backend
--DBUILD_WITH_CAB=ON   # enable Cambricon'SDK(Cambricon/寒武纪 Platform) as inference backend
+在执行cmake命令时可以携带以下选项:
+-DBUILD_WITH_ORT=ON   # 启用 ONNXRuntime
+-DBUILD_WITH_OVN=ON   # 启用 OpenVINO（Intel 平台）
+-DBUILD_WITH_TRT=ON   # 启用 TensorRT（NVIDIA / CUDA平台）
+-DBUILD_WITH_RKN=ON   # 启用 RKNN（RockChip 平台）
+-DBUILD_WITH_CML=ON   # 启用 CoreML（Apple 平台）
+-DBUILD_WITH_PDL=ON   # 启用 PaddlePaddle
+-DBUILD_WITH_CAN=ON   # 启用 CANN（华为平台）
+-DBUILD_WITH_DEL=ON   # 启用 登临SDK（登临平台）
+-DBUILD_WITH_CAB=ON   # 启用 寒武纪SDK（寒武纪平台）
 ...
 
-if you just run `cmake ..` without any options, 
-one-yolo will depend on OpenCV::DNN module as inference backend by default,
-so OpenCV is required for one-yolo, CUDA is optional when building OpenCV from source code. 
+如果直接运行 `cmake ..`
+默认使用 OpenCV::DNN 作为推理后端，因此one-yolo项目中 OpenCV 为必需依赖。
+CUDA 在自行编译 OpenCV 时为可选项。
 ```
 
-### hello one-yolo
+### one-yolo示例
 
-vehicle detection & tracking task using `yolov8s`:
+使用 yolov8s 进行车辆检测与跟踪：
 ```c++
 #include "Yolo.h"
 #include "track/YoloTracker.h"
 using namespace yolo;
 
 int main() {
-    /* 1. construct YoloConfig */
+    /* 1. 构建 YoloConfig */
     YoloConfig cfg;
-    cfg.desc        = "vehicle detection task using yolov8s(custom model)";
+    cfg.desc        = "基于 yolov8s 的车辆检测任务（自定义模型）";
     cfg.version     = YoloVersion::YOLO8;
     cfg.task        = YoloTaskType::DET;
     cfg.target_rt   = YoloTargetRT::OPENCV_CUDA;
@@ -76,68 +76,53 @@ int main() {
     cfg.num_classes = 6;
     cfg.names       = {"person", "car", "bus", "truck", "2wheel", "other"};
 
-    /* 2. create Yolo using YoloConfig */
+    /* 2. 创建模型 */
     auto model = Yolo(cfg);
     model.info();
 
-    /* 3. construct YoloTrackConfig */
+    /* 3. 构建跟踪配置 */
     YoloTrackConfig t_cfg;
     t_cfg.algo = YoloTrackAlgo::SORT;
     t_cfg.iou_thresh = 0.6f;
 
-    /* 4. create YoloTracker using YoloTrackConfig */
+    /* 4. 创建跟踪器 */
     auto tracker = YoloTracker(t_cfg);
     tracker.info();
 
-    /* 5. open video and predict frames in a loop */
+    /* 5. 打开视频并循环预测 */
     cv::VideoCapture cap("./vp_data/test_video/rgb.mp4");
     while (cap.isOpened()) {
-        // collect frame
         cv::Mat frame;
         if (!cap.read(frame)) {
             cap.set(cv::CAP_PROP_POS_FRAMES, 0);
             continue;
         }
 
-        // resize original image
         if (frame.cols > 720) {
             cv::resize(frame, frame, cv::Size(), 0.5, 0.5);
         }
         
-        // predict with batch mode (batch size == 1)
         auto results = model(std::vector<cv::Mat>{frame});
-
-        // track result
         tracker(results[0]);
 
-        // show and print
-        results[0].info();           // print summary
-        results[0].to_json(true);    // convert structured result to json and print
-        results[0].to_csv(true);     // convert structured result to csv and print
+        results[0].info();
+        results[0].to_json(true);
+        results[0].to_csv(true);
+
         if (results[0].show(
-            false, 1.0f, DrawParam(), // show annotated image & input image(640*384) & original image with unblock mode
-            true, true) == 27) {      // exit loop if user has pressed ESC
+            false, 1.0f, DrawParam(),
+            true, true) == 27) {
             break;
         }
-
-        /*
-         * you can also get structured results like below:
-         * auto boxes        = results[0].boxes();          // get bounding boxes in detection task
-         * auto cls_ids      = results[0].cls_ids();        // get class ids in detection task
-         * auto confs        = results[0].confs();          // get confidences in detection task
-         * auto labels       = results[0].labels();         // get labels in detection task
-         * auto track_ids    = results[0].track_ids();      // get track ids in detection task
-         * auto track_points = results[0].track_points();   // get track points in detection task
-        */
     }
 }
 ```
-### demo video
-video result of vehicle detection & tracking using yolov8s:
+### 示例效果
+使用 yolov8s 进行车辆检测与跟踪的视频效果：
 
 https://github.com/user-attachments/assets/d8b0b711-8922-41f8-8ec7-d1cea1f48afc
 
-### demo output
+### 示例输出
 json/csv output result of vechile detection & tracking using yolov8s:
 ```
 json output:
@@ -263,7 +248,7 @@ id,cls_id,conf,label,track_id
 8,1,0.791172,car,13
 9,1,0.581354,car,42
 ```
-## references
+## 📚 参考资料
 wait for update
 1. api docs
 2. samples
