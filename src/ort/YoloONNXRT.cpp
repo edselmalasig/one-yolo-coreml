@@ -1,5 +1,9 @@
 #include "ort/YoloONNXRT.h"
 
+/**
+ * tested for:
+ * 1. ONNXRuntime==1.17.3
+*/
 namespace yolo {
     YoloONNXRT::YoloONNXRT(
         const std::string& model_path, 

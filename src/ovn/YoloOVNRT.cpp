@@ -1,5 +1,9 @@
 #include "ovn/YoloOVNRT.h"
 
+/**
+ * tested for:
+ * 1. OpenVINO==2024
+*/
 namespace yolo {
     // docs.openvino.ai/2025/openvino-workflow/running-inference.html
     YoloOVNRT::YoloOVNRT(

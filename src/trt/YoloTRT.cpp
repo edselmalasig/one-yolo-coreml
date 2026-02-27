@@ -1,6 +1,10 @@
 #include <fstream>
 #include "trt/YoloTRT.h"
 
+/**
+ * tested for:
+ * 1. TensorRT==8.5 on RTX2060
+*/
 namespace yolo {
     class TRTLogger : public nvinfer1::ILogger {
         void log(Severity severity, const char* msg) noexcept override {
