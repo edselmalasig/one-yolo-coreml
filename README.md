@@ -5,7 +5,7 @@
 [🚀🚀🚀All Yolo Tasks · All Yolo Versions · All Yolo Runtimes🚀🚀🚀]
 </p>
 <p style="margin:0px" align="center">
-  <a href='./README_CN.md'>中文README</a> | <a href='https://github.com/sherlockchou86/one-yolo/wiki'>Wiki Docs </a>
+  <a href='./README_CN.md'>中文README</a> | <a href='https://github.com/sherlockchou86/VideoPipe'>VideoPipe </a>
 </p>
 
 # one-yolo
@@ -14,14 +14,14 @@ A unified C++ toolkit for YOLO `v5/v8/v11/v26/...`, covering `classification/det
   <img src="./docs/showcase.gif" alt="Logo" width="85%">
 </p>
 
-## highlight
+## ✨ highlight
 1. support all `Yolo` tasks including `classification`/`detection`/`segmentation`/`pose`/`obb`.
 2. support all `Yolo` versions including `yolov5(anchor-based)`/`yolov5u(anchor-free)`/`yolov8`/`yolov11`/`yolov26(nms-free)`/`more in the future`, sub versions like `n/s/m/l/x` are also supported.
 3. support all `Yolo` inference backends(runtime) such as `OpenCV::DNN`/`ONNXRuntime`/`TensorRT`/`OpenVINO`/`RKNN`/`CoreML`/`CANN`/`PaddlePaddle`...
 4. easy APIs to use and integrate, as simple as python APIs from `ultralytics/ultralytics` library.
 5. toolkit works out of box, provide the model and set up the config parameters, go predict!
 
-## quick start
+## 🚀 quick start
 
 ### basics
 1. C++ >= 17
@@ -263,8 +263,11 @@ id,cls_id,conf,label,track_id
 8,1,0.791172,car,13
 9,1,0.581354,car,42
 ```
-## references
-wait for update
-1. api docs
-2. samples
-3. to-do
+
+## 🆒 architecture diagram
+![](./docs/architecture.png)
+
+## 📚 references
+
+1. [Samples](./samples/)
+2. [VideoPipe](https://github.com/sherlockchou86/VideoPipe) for integrating Yolo

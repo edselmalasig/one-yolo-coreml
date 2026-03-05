@@ -5,7 +5,7 @@
 [🚀🚀🚀支持全部 YOLO 任务 · 支持全部 YOLO 版本 · 支持全部 YOLO 推理后端🚀🚀🚀]
 </p>
 <p style="margin:0px" align="center">
-  <a href='./README.md'>英文README</a> | <a href='https://github.com/sherlockchou86/one-yolo/wiki'>Wiki 文档 </a>
+  <a href='./README.md'>英文README</a> | <a href='https://github.com/sherlockchou86/VideoPipe'>VideoPipe </a>
 </p>
 
 # one-yolo
@@ -261,8 +261,11 @@ id,cls_id,conf,label,track_id
 8,1,0.791172,car,13
 9,1,0.581354,car,42
 ```
+
+## 🆒 架构图
+![](./docs/architecture.png)
+
 ## 📚 参考资料
-wait for update
-1. api docs
-2. samples
-3. to-do
+
+1. [Samples](./samples/)
+2. [VideoPipe](https://github.com/sherlockchou86/VideoPipe) for integrating Yolo
