@@ -20,6 +20,9 @@ target_link_libraries(yolo5_seg_dnn2 ${PROJECT_NAME})
 add_executable(yolo5u_det_dnn "yolo5u_det_dnn.cpp")
 target_link_libraries(yolo5u_det_dnn ${PROJECT_NAME})
 
+add_executable(yolo5u_pose_dnn "yolo5u_pose_dnn.cpp")
+target_link_libraries(yolo5u_pose_dnn ${PROJECT_NAME})
+
 add_executable(yolo8_cls_dnn "yolo8_cls_dnn.cpp")
 target_link_libraries(yolo8_cls_dnn ${PROJECT_NAME})
 
