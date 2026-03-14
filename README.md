@@ -15,9 +15,9 @@
 A unified C++ and Objective-C++ toolkit for YOLO `v5/v8/v11/v26/...`, covering `classification/detection/segmentation/pose/obb` tasks with easy python-like APIs from `ultralytics/ultralytics`. Support `All Yolo Tasks, All Yolo Versions, All Yolo Runtimes`, it's time to make all in one.
 
 ## ✨ highlight
-1. support all `Yolo` tasks including `classification`/`detection`/`segmentation`/`pose`/`obb`.
+1. demo code supprots `Yolo` tasks like `detection`/ `obb`.
 2. support all `Yolo` versions including `yolov5(anchor-based)`/`yolov5u(anchor-free)`/`yolov8`/`yolov11`/`yolov26(nms-free)`/`more in the future`, sub versions like `n/s/m/l/x` are also supported.
-3. support all `Yolo` inference backends(runtime)  `CoreML`
+3. supports `CoreML` `Yolo` backends(runtime)  
 4. easy APIs to use and integrate, as simple as python APIs from `ultralytics/ultralytics` library.
 5. toolkit works out of box, provide the model and set up the config parameters, go predict!
 
@@ -35,9 +35,7 @@ It is tested on Apple Silicon macs with 64GB on 6 and 8way video running 54 and 
 ### build
 1. run `git clone https://github.com/edselmalasig/one-yolo-coreml.git`
 2. run `cd one-yolo && mkdir build-macos && cd build-macos`
-3. run `cmake .. && make -j8` or click `debug` button to run samples directly if you have opened the project using VS Code
-
-> you must put test data(models&video&images) at the same directory as one-yolo first before runing the samples.
+3. run `cmake .. && make -j8` 
 
 ```
 build options when run cmake command:
