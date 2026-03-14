@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+*.gitignore
 
 # Compiled Object files
 *.slo
@@ -56,6 +57,8 @@ images/
 log/
 debug/
 build/
+.vscode/
+
 
 # ignore files
 /test*.cpp
