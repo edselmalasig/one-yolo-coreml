@@ -22,7 +22,7 @@ A unified C++ and Objective-C++ toolkit for YOLO `v5/v8/v11/v26/...`, covering `
 5. toolkit works out of box, provide the model and set up the config parameters, go predict!
 
 ## Requirements
-It is tested on Apple Silicon macs with 64GB with 8way video running 54 fps avg.
+It is tested on Apple Silicon macs with 64GB on 6 and 8way video running 54 and 42 fps avg.
 
 ## 🚀 quick start
 
