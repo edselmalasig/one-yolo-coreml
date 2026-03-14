@@ -5,7 +5,7 @@
 [🚀🚀🚀All Yolo Tasks · All Yolo Versions · All Yolo Runtimes🚀🚀🚀]
 </p>
 <p style="margin:0px" align="center">
-  <a href='./README_CN.md'>中文README</a> | <a href='https://github.com/sherlockchou86/VideoPipe'>VideoPipe </a>
+  <a href='./README_CN.md'>中文README</a>
 </p>
 
 # one-yolo-coreml
@@ -19,7 +19,7 @@ A unified C++ and Objective-C++ toolkit for YOLO `v5/v8/v11/v26/...`, covering `
 5. toolkit works out of box, provide the model and set up the config parameters, go predict!
 
 ## Requirements
-It tested on Apple Silicon macs with 64GB with 8way video running 54 fps avg.
+It is tested on Apple Silicon macs with 64GB with 8way video running 54 fps avg.
 
 ## 🚀 quick start
 
@@ -52,13 +52,13 @@ so OpenCV is required for one-yolo, CUDA is optional when building OpenCV from s
 ### To run you must convert yolo models to mlpackage
 you can get yolo models .pt from http://www.ultralytics.com
 
-1. pip install ultralytics
-2. yolo export model=yolo26n.pt format=coreml
+1. `pip install ultralytics`
+2. `yolo export model=yolo26n.pt format=coreml`
 3. copy the assets folder to build-macos/samples
-4. cd build-macos/samples
-5. mkdir models
+4. `cd build-macos/samples`
+5. `mkdir models`
 6. move the converted .pt package... the .mlpackage to the models
-7. run the executable in the terminal 
+7. run the executable from the terminal 
 
 ### asset videos
 can be found in assets folder
