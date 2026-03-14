@@ -1,8 +1,11 @@
 <p style="" align="center">
   <img src="./docs/logo.png" alt="Logo" width="85%">
 </p>
+<p style="" align="center">
+  <img src="./docs/screenshot.png" alt="Logo" width="85%">
+</p>
 <p style="margin:0px;color:gray" align="center">
-[🚀🚀🚀All Yolo Tasks · All Yolo Versions · All Yolo Runtimes🚀🚀🚀]
+[🚀🚀🚀CoreML Yolo🚀🚀🚀]
 </p>
 <p style="margin:0px" align="center">
   <a href='./README_CN.md'>中文README</a>
@@ -57,7 +60,7 @@ you can get yolo models .pt from http://www.ultralytics.com
 3. copy the assets folder to build-macos/samples
 4. `cd build-macos/samples`
 5. `mkdir models`
-6. move the converted .pt package... the .mlpackage to the models
+6. move the converted .pt package... the .mlpackage to the models directory
 7. run the executable from the terminal 
 
 ### asset videos
