@@ -1,4 +1,6 @@
 #pragma once
+#ifdef BUILD_WITH_ORT
+
 #include <onnxruntime_cxx_api.h>
 #include "YoloRuntime.h"
 
@@ -25,3 +27,5 @@ namespace yolo {
         virtual std::vector<cv::Mat> inference(const cv::Mat& blob) override;
     };
 }
+
+#endif // BUILD_WITH_ORT

@@ -12,6 +12,17 @@ namespace yolo {
 
     /**
      * @brief
+     * make std::vector<T> serializable with array format in json.
+     * MUST be declared before to_string<T> so it is visible at template definition time.
+    */
+    template<typename T>
+    std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
+        os << json(v).dump();
+        return os;
+    }
+
+    /**
+     * @brief
      * convert std::vector<T> to string with array format in json.
     */
     template<typename T>
@@ -20,22 +31,12 @@ namespace yolo {
         oss << v;
         return oss.str();
     }
-    
+
     /**
      * @brief
      * create 48 kind of colors.
     */
     std::vector<cv::Scalar> get_colors_48();
-
-    /**
-     * @brief
-     * make std::vector<T> serializable with array format in json.
-    */
-    template<typename T>
-    std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
-        os << json(v).dump();
-        return os;
-    }
 
     /**
      * @brief

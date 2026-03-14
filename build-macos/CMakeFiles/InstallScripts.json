@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/cmake_install.cmake",
+		"/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

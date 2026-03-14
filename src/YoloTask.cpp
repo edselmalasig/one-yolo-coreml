@@ -14,6 +14,9 @@
 #ifdef BUILD_WITH_RKN
 #include "rkn/YoloRKNNRT.h"
 #endif
+#ifdef BUILD_WITH_CML
+#include "YoloCMLRT.h"
+#endif
 namespace yolo {
         
     YoloTask::YoloTask(const YoloConfig& cfg): _cfg(cfg) {
@@ -51,6 +54,11 @@ namespace yolo {
         #ifdef BUILD_WITH_RKN
         case YoloTargetRT::RKNN:
             _rt = std::make_shared<yolo::YoloRKNNRT>(_cfg.model_path);
+            break;
+        #endif
+        #ifdef BUILD_WITH_CML
+        case YoloTargetRT::CML:
+            _rt = std::make_shared<yolo::YoloCMLRT>(_cfg.model_path);
             break;
         #endif
         default:

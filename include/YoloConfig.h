@@ -18,7 +18,8 @@ namespace yolo {
         OVN_CPU,          // use openvino(cpu) as inference backend for Yolo
         OVN_GPU,          // use openvino(integrated gpu) as inference backend for Yolo
         TRT,              // use tensorrt(cuda) as inference backend for Yolo
-        RKNN              // use rknn(rockchip) as inference backend for Yolo
+        RKNN,             // use rknn(rockchip) as inference backend for Yolo
+        CML               // use CoreML(Apple Silicon) as inference backend for Yolo
     };
 
     struct YoloConfig {
