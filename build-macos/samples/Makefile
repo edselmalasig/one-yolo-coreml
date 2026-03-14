@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/CT2000/AI_Projects/one-yolo-coreml
+CMAKE_SOURCE_DIR = /Volumes/CT2000/AI_Projects/github/one-yolo-coreml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos
+CMAKE_BINARY_DIR = /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -E cmake_progress_start /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples//CMakeFiles/progress.marks
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles 0
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -E cmake_progress_start /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples//CMakeFiles/progress.marks
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/clean
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/preinstall
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/preinstall
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 samples/CMakeFiles/yolo_demo_1way.dir/rule:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/yolo_demo_1way.dir/rule
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/yolo_demo_1way.dir/rule
 .PHONY : samples/CMakeFiles/yolo_demo_1way.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ yolo_demo_1way: samples/CMakeFiles/yolo_demo_1way.dir/rule
 
 # fast build rule for target.
 yolo_demo_1way/fast:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_1way.dir/build.make samples/CMakeFiles/yolo_demo_1way.dir/build
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_1way.dir/build.make samples/CMakeFiles/yolo_demo_1way.dir/build
 .PHONY : yolo_demo_1way/fast
 
 # Convenience name for target.
 samples/CMakeFiles/yolo_demo_4way.dir/rule:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/yolo_demo_4way.dir/rule
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/yolo_demo_4way.dir/rule
 .PHONY : samples/CMakeFiles/yolo_demo_4way.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ yolo_demo_4way: samples/CMakeFiles/yolo_demo_4way.dir/rule
 
 # fast build rule for target.
 yolo_demo_4way/fast:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_4way.dir/build.make samples/CMakeFiles/yolo_demo_4way.dir/build
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_4way.dir/build.make samples/CMakeFiles/yolo_demo_4way.dir/build
 .PHONY : yolo_demo_4way/fast
 
 # Convenience name for target.
 samples/CMakeFiles/yolo_demo_6way.dir/rule:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/yolo_demo_6way.dir/rule
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/yolo_demo_6way.dir/rule
 .PHONY : samples/CMakeFiles/yolo_demo_6way.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ yolo_demo_6way: samples/CMakeFiles/yolo_demo_6way.dir/rule
 
 # fast build rule for target.
 yolo_demo_6way/fast:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_6way.dir/build.make samples/CMakeFiles/yolo_demo_6way.dir/build
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_6way.dir/build.make samples/CMakeFiles/yolo_demo_6way.dir/build
 .PHONY : yolo_demo_6way/fast
 
 # Convenience name for target.
 samples/CMakeFiles/yolo_demo_8way.dir/rule:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/yolo_demo_8way.dir/rule
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/yolo_demo_8way.dir/rule
 .PHONY : samples/CMakeFiles/yolo_demo_8way.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ yolo_demo_8way: samples/CMakeFiles/yolo_demo_8way.dir/rule
 
 # fast build rule for target.
 yolo_demo_8way/fast:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_8way.dir/build.make samples/CMakeFiles/yolo_demo_8way.dir/build
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_8way.dir/build.make samples/CMakeFiles/yolo_demo_8way.dir/build
 .PHONY : yolo_demo_8way/fast
 
 yolo_demo_1way.o: yolo_demo_1way.mm.o
@@ -177,7 +177,7 @@ yolo_demo_1way.o: yolo_demo_1way.mm.o
 
 # target to build an object file
 yolo_demo_1way.mm.o:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_1way.dir/build.make samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.o
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_1way.dir/build.make samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.o
 .PHONY : yolo_demo_1way.mm.o
 
 yolo_demo_1way.i: yolo_demo_1way.mm.i
@@ -185,7 +185,7 @@ yolo_demo_1way.i: yolo_demo_1way.mm.i
 
 # target to preprocess a source file
 yolo_demo_1way.mm.i:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_1way.dir/build.make samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.i
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_1way.dir/build.make samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.i
 .PHONY : yolo_demo_1way.mm.i
 
 yolo_demo_1way.s: yolo_demo_1way.mm.s
@@ -193,7 +193,7 @@ yolo_demo_1way.s: yolo_demo_1way.mm.s
 
 # target to generate assembly for a file
 yolo_demo_1way.mm.s:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_1way.dir/build.make samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.s
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_1way.dir/build.make samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.s
 .PHONY : yolo_demo_1way.mm.s
 
 yolo_demo_4way.o: yolo_demo_4way.mm.o
@@ -201,7 +201,7 @@ yolo_demo_4way.o: yolo_demo_4way.mm.o
 
 # target to build an object file
 yolo_demo_4way.mm.o:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_4way.dir/build.make samples/CMakeFiles/yolo_demo_4way.dir/yolo_demo_4way.mm.o
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_4way.dir/build.make samples/CMakeFiles/yolo_demo_4way.dir/yolo_demo_4way.mm.o
 .PHONY : yolo_demo_4way.mm.o
 
 yolo_demo_4way.i: yolo_demo_4way.mm.i
@@ -209,7 +209,7 @@ yolo_demo_4way.i: yolo_demo_4way.mm.i
 
 # target to preprocess a source file
 yolo_demo_4way.mm.i:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_4way.dir/build.make samples/CMakeFiles/yolo_demo_4way.dir/yolo_demo_4way.mm.i
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_4way.dir/build.make samples/CMakeFiles/yolo_demo_4way.dir/yolo_demo_4way.mm.i
 .PHONY : yolo_demo_4way.mm.i
 
 yolo_demo_4way.s: yolo_demo_4way.mm.s
@@ -217,7 +217,7 @@ yolo_demo_4way.s: yolo_demo_4way.mm.s
 
 # target to generate assembly for a file
 yolo_demo_4way.mm.s:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_4way.dir/build.make samples/CMakeFiles/yolo_demo_4way.dir/yolo_demo_4way.mm.s
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_4way.dir/build.make samples/CMakeFiles/yolo_demo_4way.dir/yolo_demo_4way.mm.s
 .PHONY : yolo_demo_4way.mm.s
 
 yolo_demo_6way.o: yolo_demo_6way.mm.o
@@ -225,7 +225,7 @@ yolo_demo_6way.o: yolo_demo_6way.mm.o
 
 # target to build an object file
 yolo_demo_6way.mm.o:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_6way.dir/build.make samples/CMakeFiles/yolo_demo_6way.dir/yolo_demo_6way.mm.o
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_6way.dir/build.make samples/CMakeFiles/yolo_demo_6way.dir/yolo_demo_6way.mm.o
 .PHONY : yolo_demo_6way.mm.o
 
 yolo_demo_6way.i: yolo_demo_6way.mm.i
@@ -233,7 +233,7 @@ yolo_demo_6way.i: yolo_demo_6way.mm.i
 
 # target to preprocess a source file
 yolo_demo_6way.mm.i:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_6way.dir/build.make samples/CMakeFiles/yolo_demo_6way.dir/yolo_demo_6way.mm.i
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_6way.dir/build.make samples/CMakeFiles/yolo_demo_6way.dir/yolo_demo_6way.mm.i
 .PHONY : yolo_demo_6way.mm.i
 
 yolo_demo_6way.s: yolo_demo_6way.mm.s
@@ -241,7 +241,7 @@ yolo_demo_6way.s: yolo_demo_6way.mm.s
 
 # target to generate assembly for a file
 yolo_demo_6way.mm.s:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_6way.dir/build.make samples/CMakeFiles/yolo_demo_6way.dir/yolo_demo_6way.mm.s
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_6way.dir/build.make samples/CMakeFiles/yolo_demo_6way.dir/yolo_demo_6way.mm.s
 .PHONY : yolo_demo_6way.mm.s
 
 yolo_demo_8way.o: yolo_demo_8way.mm.o
@@ -249,7 +249,7 @@ yolo_demo_8way.o: yolo_demo_8way.mm.o
 
 # target to build an object file
 yolo_demo_8way.mm.o:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_8way.dir/build.make samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_8way.dir/build.make samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o
 .PHONY : yolo_demo_8way.mm.o
 
 yolo_demo_8way.i: yolo_demo_8way.mm.i
@@ -257,7 +257,7 @@ yolo_demo_8way.i: yolo_demo_8way.mm.i
 
 # target to preprocess a source file
 yolo_demo_8way.mm.i:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_8way.dir/build.make samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.i
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_8way.dir/build.make samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.i
 .PHONY : yolo_demo_8way.mm.i
 
 yolo_demo_8way.s: yolo_demo_8way.mm.s
@@ -265,7 +265,7 @@ yolo_demo_8way.s: yolo_demo_8way.mm.s
 
 # target to generate assembly for a file
 yolo_demo_8way.mm.s:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_8way.dir/build.make samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.s
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/yolo_demo_8way.dir/build.make samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.s
 .PHONY : yolo_demo_8way.mm.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

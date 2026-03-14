@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBUILD_WITH_CML
 
-CXX_INCLUDES = -I/Volumes/CT2000/AI_Projects/one-yolo-coreml/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_6/include/opencv4
+CXX_INCLUDES = -I/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_6/include/opencv4
 
 CXX_FLAGSarm64 =  -g -fPIC -w -fdiagnostics-color=always -pthread -g -std=gnu++17 -arch arm64
 

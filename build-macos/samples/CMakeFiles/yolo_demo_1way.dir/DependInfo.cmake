@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/CT2000/AI_Projects/one-yolo-coreml/samples/yolo_demo_1way.mm" "samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.o" "gcc" "samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.o.d"
+  "/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/samples/yolo_demo_1way.mm" "samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.o" "gcc" "samples/CMakeFiles/yolo_demo_1way.dir/yolo_demo_1way.mm.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

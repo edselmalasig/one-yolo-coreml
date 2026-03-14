@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/CT2000/AI_Projects/one-yolo-coreml
+CMAKE_SOURCE_DIR = /Volumes/CT2000/AI_Projects/github/one-yolo-coreml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos
+CMAKE_BINARY_DIR = /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

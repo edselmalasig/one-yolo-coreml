@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/CT2000/AI_Projects/one-yolo-coreml
+CMAKE_SOURCE_DIR = /Volumes/CT2000/AI_Projects/github/one-yolo-coreml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos
+CMAKE_BINARY_DIR = /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos
 
 # Include any dependencies generated for this target.
 include CMakeFiles/one-yolo.dir/depend.make
@@ -73,284 +73,284 @@ CMakeFiles/one-yolo.dir/codegen:
 .PHONY : CMakeFiles/one-yolo.dir/codegen
 
 CMakeFiles/one-yolo.dir/src/Yolo.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/Yolo.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/Yolo.cpp
+CMakeFiles/one-yolo.dir/src/Yolo.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/Yolo.cpp
 CMakeFiles/one-yolo.dir/src/Yolo.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/one-yolo.dir/src/Yolo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/Yolo.cpp.o -MF CMakeFiles/one-yolo.dir/src/Yolo.cpp.o.d -o CMakeFiles/one-yolo.dir/src/Yolo.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/Yolo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/one-yolo.dir/src/Yolo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/Yolo.cpp.o -MF CMakeFiles/one-yolo.dir/src/Yolo.cpp.o.d -o CMakeFiles/one-yolo.dir/src/Yolo.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/Yolo.cpp
 
 CMakeFiles/one-yolo.dir/src/Yolo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/Yolo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/Yolo.cpp > CMakeFiles/one-yolo.dir/src/Yolo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/Yolo.cpp > CMakeFiles/one-yolo.dir/src/Yolo.cpp.i
 
 CMakeFiles/one-yolo.dir/src/Yolo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/Yolo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/Yolo.cpp -o CMakeFiles/one-yolo.dir/src/Yolo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/Yolo.cpp -o CMakeFiles/one-yolo.dir/src/Yolo.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloClsTask.cpp
+CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloClsTask.cpp
 CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloClsTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloClsTask.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloClsTask.cpp > CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloClsTask.cpp > CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloClsTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloClsTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloClsTask.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloConfig.cpp
+CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloConfig.cpp
 CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloConfig.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloConfig.cpp > CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloConfig.cpp > CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloConfig.cpp -o CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloConfig.cpp -o CMakeFiles/one-yolo.dir/src/YoloConfig.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloDetTask.cpp
+CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloDetTask.cpp
 CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloDetTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloDetTask.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloDetTask.cpp > CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloDetTask.cpp > CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloDetTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloDetTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloDetTask.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloObbTask.cpp
+CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloObbTask.cpp
 CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloObbTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloObbTask.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloObbTask.cpp > CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloObbTask.cpp > CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloObbTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloObbTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloObbTask.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloObjs.cpp
+CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloObjs.cpp
 CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloObjs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloObjs.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloObjs.cpp > CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloObjs.cpp > CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloObjs.cpp -o CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloObjs.cpp -o CMakeFiles/one-yolo.dir/src/YoloObjs.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloOpenCVRT.cpp
+CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloOpenCVRT.cpp
 CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloOpenCVRT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloOpenCVRT.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloOpenCVRT.cpp > CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloOpenCVRT.cpp > CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloOpenCVRT.cpp -o CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloOpenCVRT.cpp -o CMakeFiles/one-yolo.dir/src/YoloOpenCVRT.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloPoseTask.cpp
+CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloPoseTask.cpp
 CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloPoseTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloPoseTask.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloPoseTask.cpp > CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloPoseTask.cpp > CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloPoseTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloPoseTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloPoseTask.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloResult.cpp
+CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloResult.cpp
 CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloResult.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloResult.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloResult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloResult.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloResult.cpp > CMakeFiles/one-yolo.dir/src/YoloResult.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloResult.cpp > CMakeFiles/one-yolo.dir/src/YoloResult.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloResult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloResult.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloResult.cpp -o CMakeFiles/one-yolo.dir/src/YoloResult.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloResult.cpp -o CMakeFiles/one-yolo.dir/src/YoloResult.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloRuntime.cpp
+CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloRuntime.cpp
 CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloRuntime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloRuntime.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloRuntime.cpp > CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloRuntime.cpp > CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloRuntime.cpp -o CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloRuntime.cpp -o CMakeFiles/one-yolo.dir/src/YoloRuntime.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloSegTask.cpp
+CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloSegTask.cpp
 CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloSegTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloSegTask.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloSegTask.cpp > CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloSegTask.cpp > CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloSegTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloSegTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloSegTask.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloTask.cpp
+CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloTask.cpp
 CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloTask.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloTask.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloTask.cpp > CMakeFiles/one-yolo.dir/src/YoloTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloTask.cpp > CMakeFiles/one-yolo.dir/src/YoloTask.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloTask.cpp -o CMakeFiles/one-yolo.dir/src/YoloTask.cpp.s
 
 CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloUtils.cpp
+CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloUtils.cpp
 CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o -MF CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o.d -o CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloUtils.cpp
 
 CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloUtils.cpp > CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloUtils.cpp > CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.i
 
 CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/YoloUtils.cpp -o CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/YoloUtils.cpp -o CMakeFiles/one-yolo.dir/src/YoloUtils.cpp.s
 
 CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/BaseTrackAlgo.cpp
+CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/BaseTrackAlgo.cpp
 CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/BaseTrackAlgo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/BaseTrackAlgo.cpp
 
 CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/BaseTrackAlgo.cpp > CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/BaseTrackAlgo.cpp > CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.i
 
 CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/BaseTrackAlgo.cpp -o CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/BaseTrackAlgo.cpp -o CMakeFiles/one-yolo.dir/src/track/BaseTrackAlgo.cpp.s
 
 CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/YoloTrackConfig.cpp
+CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/YoloTrackConfig.cpp
 CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/YoloTrackConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/YoloTrackConfig.cpp
 
 CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/YoloTrackConfig.cpp > CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/YoloTrackConfig.cpp > CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.i
 
 CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/YoloTrackConfig.cpp -o CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/YoloTrackConfig.cpp -o CMakeFiles/one-yolo.dir/src/track/YoloTrackConfig.cpp.s
 
 CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/YoloTracker.cpp
+CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/YoloTracker.cpp
 CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/YoloTracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/YoloTracker.cpp
 
 CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/YoloTracker.cpp > CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/YoloTracker.cpp > CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.i
 
 CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/YoloTracker.cpp -o CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/YoloTracker.cpp -o CMakeFiles/one-yolo.dir/src/track/YoloTracker.cpp.s
 
 CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/Hungarian.cpp
+CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/Hungarian.cpp
 CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/Hungarian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/Hungarian.cpp
 
 CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/Hungarian.cpp > CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/Hungarian.cpp > CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.i
 
 CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/Hungarian.cpp -o CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/Hungarian.cpp -o CMakeFiles/one-yolo.dir/src/track/sort/Hungarian.cpp.s
 
 CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/KalmanTracker.cpp
+CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/KalmanTracker.cpp
 CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/KalmanTracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/KalmanTracker.cpp
 
 CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/KalmanTracker.cpp > CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/KalmanTracker.cpp > CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.i
 
 CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/KalmanTracker.cpp -o CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/KalmanTracker.cpp -o CMakeFiles/one-yolo.dir/src/track/sort/KalmanTracker.cpp.s
 
 CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/SortTrackAlgo.cpp
+CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/SortTrackAlgo.cpp
 CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/SortTrackAlgo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o -MF CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o.d -o CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/SortTrackAlgo.cpp
 
 CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/SortTrackAlgo.cpp > CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/SortTrackAlgo.cpp > CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.i
 
 CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/track/sort/SortTrackAlgo.cpp -o CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/track/sort/SortTrackAlgo.cpp -o CMakeFiles/one-yolo.dir/src/track/sort/SortTrackAlgo.cpp.s
 
 CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o: CMakeFiles/one-yolo.dir/flags.make
-CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/cml/YoloCMLRT.mm
+CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/cml/YoloCMLRT.mm
 CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o: CMakeFiles/one-yolo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o -MF CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o.d -o CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/cml/YoloCMLRT.mm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o -MF CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o.d -o CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/cml/YoloCMLRT.mm
 
 CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/cml/YoloCMLRT.mm > CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/cml/YoloCMLRT.mm > CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.i
 
 CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/src/cml/YoloCMLRT.mm -o CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/src/cml/YoloCMLRT.mm -o CMakeFiles/one-yolo.dir/src/cml/YoloCMLRT.mm.s
 
 # Object files for target one-yolo
 one__yolo_OBJECTS = \
@@ -456,7 +456,7 @@ libone-yolo.dylib: /opt/homebrew/lib/libopencv_photo.4.13.0.dylib
 libone-yolo.dylib: /opt/homebrew/lib/libopencv_imgproc.4.13.0.dylib
 libone-yolo.dylib: /opt/homebrew/lib/libopencv_core.4.13.0.dylib
 libone-yolo.dylib: CMakeFiles/one-yolo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX shared library libone-yolo.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX shared library libone-yolo.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/one-yolo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -468,6 +468,6 @@ CMakeFiles/one-yolo.dir/clean:
 .PHONY : CMakeFiles/one-yolo.dir/clean
 
 CMakeFiles/one-yolo.dir/depend:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/CT2000/AI_Projects/one-yolo-coreml /Volumes/CT2000/AI_Projects/one-yolo-coreml /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles/one-yolo.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/CT2000/AI_Projects/github/one-yolo-coreml /Volumes/CT2000/AI_Projects/github/one-yolo-coreml /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles/one-yolo.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/one-yolo.dir/depend
 

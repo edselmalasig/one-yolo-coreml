@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/CT2000/AI_Projects/one-yolo-coreml
+# Install script for directory: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples/cmake_install.cmake")
+  include("/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/install_local_manifest.txt"
+  file(WRITE "/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

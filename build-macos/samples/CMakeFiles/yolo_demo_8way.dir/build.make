@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/CT2000/AI_Projects/one-yolo-coreml
+CMAKE_SOURCE_DIR = /Volumes/CT2000/AI_Projects/github/one-yolo-coreml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos
+CMAKE_BINARY_DIR = /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos
 
 # Include any dependencies generated for this target.
 include samples/CMakeFiles/yolo_demo_8way.dir/depend.make
@@ -73,18 +73,18 @@ samples/CMakeFiles/yolo_demo_8way.dir/codegen:
 .PHONY : samples/CMakeFiles/yolo_demo_8way.dir/codegen
 
 samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o: samples/CMakeFiles/yolo_demo_8way.dir/flags.make
-samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o: /Volumes/CT2000/AI_Projects/one-yolo-coreml/samples/yolo_demo_8way.mm
+samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o: /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/samples/yolo_demo_8way.mm
 samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o: samples/CMakeFiles/yolo_demo_8way.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o"
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o -MF CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o.d -o CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o -c /Volumes/CT2000/AI_Projects/one-yolo-coreml/samples/yolo_demo_8way.mm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o"
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o -MF CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o.d -o CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.o -c /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/samples/yolo_demo_8way.mm
 
 samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.i"
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/one-yolo-coreml/samples/yolo_demo_8way.mm > CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.i
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/samples/yolo_demo_8way.mm > CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.i
 
 samples/CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.s"
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/one-yolo-coreml/samples/yolo_demo_8way.mm -o CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.s
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/samples/yolo_demo_8way.mm -o CMakeFiles/yolo_demo_8way.dir/yolo_demo_8way.mm.s
 
 # Object files for target yolo_demo_8way
 yolo_demo_8way_OBJECTS = \
@@ -153,18 +153,18 @@ samples/yolo_demo_8way: /opt/homebrew/lib/libopencv_photo.4.13.0.dylib
 samples/yolo_demo_8way: /opt/homebrew/lib/libopencv_imgproc.4.13.0.dylib
 samples/yolo_demo_8way: /opt/homebrew/lib/libopencv_core.4.13.0.dylib
 samples/yolo_demo_8way: samples/CMakeFiles/yolo_demo_8way.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable yolo_demo_8way"
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yolo_demo_8way.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable yolo_demo_8way"
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yolo_demo_8way.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 samples/CMakeFiles/yolo_demo_8way.dir/build: samples/yolo_demo_8way
 .PHONY : samples/CMakeFiles/yolo_demo_8way.dir/build
 
 samples/CMakeFiles/yolo_demo_8way.dir/clean:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples && $(CMAKE_COMMAND) -P CMakeFiles/yolo_demo_8way.dir/cmake_clean.cmake
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples && $(CMAKE_COMMAND) -P CMakeFiles/yolo_demo_8way.dir/cmake_clean.cmake
 .PHONY : samples/CMakeFiles/yolo_demo_8way.dir/clean
 
 samples/CMakeFiles/yolo_demo_8way.dir/depend:
-	cd /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/CT2000/AI_Projects/one-yolo-coreml /Volumes/CT2000/AI_Projects/one-yolo-coreml/samples /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples /Volumes/CT2000/AI_Projects/one-yolo-coreml/build-macos/samples/CMakeFiles/yolo_demo_8way.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/CT2000/AI_Projects/github/one-yolo-coreml /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/samples /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples /Volumes/CT2000/AI_Projects/github/one-yolo-coreml/build-macos/samples/CMakeFiles/yolo_demo_8way.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : samples/CMakeFiles/yolo_demo_8way.dir/depend
 
