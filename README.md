@@ -11,7 +11,7 @@
   <a href='./README_CN.md'>中文README</a>
 </p>
 
-# one-yolo-coreml
+# coreml yolo c++ objective-c++ one-yolo-coreml 
 A unified C++ and Objective-C++ toolkit for YOLO `v5/v8/v11/v26/...`, covering `classification/detection/segmentation/pose/obb` tasks with easy python-like APIs from `ultralytics/ultralytics`. Support `All Yolo Tasks, All Yolo Versions, All Yolo Runtimes`, it's time to make all in one.
 
 ## ✨ highlight
